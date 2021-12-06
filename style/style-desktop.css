@@ -1,0 +1,89 @@
+@media only screen and (min-width: 601px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+  }
+
+  nav {
+    margin: 3rem 4rem 0 4rem;
+  }
+
+  .btn-navigation {
+    padding: 0 1.5rem;
+  }
+
+  .page-description {
+    width: 40vw;
+  }
+
+  .screen-mockup {
+    width: 75vw;
+    margin: 5rem 0;
+  }
+
+  .numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .section-content {
+    flex-direction: row;
+  }
+
+  .section-content img {
+    width: 30rem;
+  }
+
+  .section-content-left p {
+    text-align: left;
+    width: 41vw;
+  }
+
+  section,
+  footer {
+    margin-top: 10rem;
+  }
+
+  .section-content.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .footer-content {
+    padding: 5rem 4rem;
+  }
+
+  .subscribe {
+    margin: 3rem 0 0;
+  }
+
+  .subscribe > input {
+    width: 25rem;
+  }
+
+  .subscribe > button {
+    margin: 0 0 0 2rem;
+    padding: 1rem 3rem;
+  }
+
+  .footer-content {
+    flex-direction: row;
+  }
+
+  .footer-content-left p {
+    width: 25vw;
+  }
+
+  .footer-content-right p {
+    width: 30vw;
+  }
+}

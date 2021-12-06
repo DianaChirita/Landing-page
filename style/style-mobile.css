@@ -1,0 +1,109 @@
+@media only screen and (max-width: 600px) {
+  nav {
+    margin: 2rem 1.5rem 7rem 1.5rem;
+  }
+
+  .logo {
+    width: 6rem;
+    height: fit-content;
+    align-self: center;
+  }
+
+  .page-description {
+    width: 85vw;
+  }
+
+  .btn-navigation {
+    padding: 0.3rem 1rem;
+    align-self: center;
+    font-size: 0.6rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    align-self: center;
+    margin: 3rem 0 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+
+  .btn-primary {
+    padding: 1.2rem 2rem;
+    font-size: 0.8rem;
+  }
+
+  .section-content {
+    flex-direction: column-reverse;
+    padding: 2rem 1rem;
+    align-items: center;
+  }
+
+  .section-content img {
+    width: 15rem;
+  }
+
+  .section-content-left p {
+    text-align: center;
+  }
+
+  .numbers div {
+    margin: 0 0 5rem;
+  }
+
+  .numbers img {
+    width: 2rem;
+  }
+
+  .numbers h2 {
+    font-size: 3.5rem;
+  }
+
+  .numbers h3 {
+    font-size: 1rem;
+  }
+
+  section,
+  footer {
+    margin-top: 5rem;
+  }
+
+  .footer-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer-content-right,
+  .footer-content-left {
+    width: 85vw;
+  }
+
+  .footer-content-left {
+    margin: 5rem 0;
+  }
+
+  .footer-content-left .logo {
+    width: 13rem;
+  }
+
+  .subscribe {
+    flex-direction: column;
+  }
+
+  .subscribe > * {
+    padding: 0.9rem;
+  }
+
+  .subscribe button {
+    width: 10rem;
+    align-self: end;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+  }
+}
